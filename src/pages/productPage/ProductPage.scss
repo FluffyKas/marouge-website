@@ -1,0 +1,26 @@
+@use "../../assets/styles/variables.scss" as *;
+
+.product-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 2px solid gray;
+  padding: 1rem;
+  font-family: $ff-serif;
+}
+
+.product-descr {
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding-inline: 3rem;
+
+  img {
+    max-width: 20rem;
+  }
+
+  p {
+    font-family: $ff-sans-serif;
+  }
+}
