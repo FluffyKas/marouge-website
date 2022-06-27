@@ -1,0 +1,16 @@
+@use "../../assets/styles/variables.scss" as *;
+
+.about-container {
+  font-family: $ff-serif;
+  margin: 5rem auto;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 2rem;
+}
+
+.text {
+  line-height: 1.8;
+}
