@@ -7,13 +7,24 @@ header {
   justify-content: center;
 }
 
+.logo {
+  border-radius: 50%;
+  max-width: 10rem;
+}
+
 .header-nav {
   display: flex;
-  gap: 2rem;
+  gap: 6rem;
+  margin-top: 2rem;
 }
 
 .nav-link,
 .nav-link:active {
   color: $clr-neutral-black;
   font-family: $ff-serif;
+  transition: all .2s ease;
+
+  &:hover {
+    opacity: .8;
+  }
 }

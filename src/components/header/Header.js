@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import logo from "../../assets/images/logo.jpg";
 
 export const Header = () => {
   return (
     <header>
-      <h1>Logo</h1>
+      <img src={logo} className="logo" alt="Marouge" />
       <nav className="header-nav">
         <Link to="/" className="nav-link">Rolam</Link>
         <Link to="/katalogus" className="nav-link">Katalogus</Link>
