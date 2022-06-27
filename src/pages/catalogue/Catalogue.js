@@ -1,6 +1,7 @@
 import logo from "../../assets/images/logo.jpg";
 import "./Catalogue.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Catalogue = () => {
   const [opened, setOpened] = useState(false)
@@ -30,7 +31,7 @@ export const Catalogue = () => {
               <h2>Termek neve</h2>
               <p>Termek ara</p>
             </div>
-            <button className="details-btn" onClick={openModal}>Reszletek</button>
+            <Link to="/product" className="details-btn">Reszletek</Link>
           </div>
         </article>
         <article className="product">
