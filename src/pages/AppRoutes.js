@@ -1,7 +1,8 @@
 import {
   About,
   Catalogue,
-  Order
+  Order,
+  ProductPage
 } from "./";
 
 export const AppRoutes = [
@@ -16,5 +17,9 @@ export const AppRoutes = [
   {
     path: "/rendeles",
     element: <Order />,
+  },
+  {
+    path: "/product",
+    element: <ProductPage />,
   },
 ];
