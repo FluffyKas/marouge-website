@@ -1,0 +1,19 @@
+@use "../../assets/styles/variables.scss" as *;
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link,
+.nav-link:active {
+  color: $clr-neutral-black;
+  font-family: $ff-serif;
+}
