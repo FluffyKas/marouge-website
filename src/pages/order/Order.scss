@@ -1,0 +1,16 @@
+@use "../../assets/styles/variables.scss" as *;
+
+.order-container {
+  font-family: $ff-serif;
+  max-width: 50rem;
+  margin: 5rem auto;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    line-height: 1.8;
+  }
+}

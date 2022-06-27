@@ -1,0 +1,28 @@
+@use "../../assets/styles/variables.scss" as *;
+
+.catalogue-container {
+  font-family: $ff-serif;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    margin: 5rem 0;
+  }
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.product {
+  border: 2px solid black;
+  
+}
+
+.product img {
+  max-width: 10rem;
+  margin: 0 auto;
+}
