@@ -8,38 +8,83 @@ export const Catalogue = () => {
       <div className="product-grid">
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
         <article className="product">
           <img src={logo} alt="Marouge" />
-          <h2>Termek neve</h2>
-          <p>Termek ara</p>
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
+        </article>
+        <article className="product">
+          <img src={logo} alt="Marouge" />
+          <div className="details">
+            <div>
+              <h2>Termek neve</h2>
+              <p>Termek ara</p>
+            </div>
+            <button className="details-btn">Reszletek</button>
+          </div>
         </article>
       </div>
     </div>
