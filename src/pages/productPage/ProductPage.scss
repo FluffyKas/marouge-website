@@ -1,26 +1,37 @@
 @use "../../assets/styles/variables.scss" as *;
 
 .product-container {
-  max-width: 60rem;
+  max-width: 80rem;
   margin: 0 auto;
   margin-top: 5rem;
-  border: 2px solid gray;
-  padding: 1rem;
+  padding: 1.5rem;
   font-family: $ff-serif;
-}
-
-.product-descr {
-  padding: 1rem;
-  font-size: 1rem;
   display: flex;
   align-items: center;
-  padding-inline: 3rem;
+  gap: 3rem;
+}
 
-  img {
-    max-width: 20rem;
-  }
+.product-container > * {
+  width: 100%;
+}
 
-  p {
-    font-family: $ff-sans-serif;
-  }
+.product-illustration {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.swatches {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.swatch-img {
+  all: unset;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 5rem;
+  padding: .5rem;
 }
