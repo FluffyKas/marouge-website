@@ -3,16 +3,21 @@
 .about-container {
   font-family: $ff-serif;
   margin: 5rem auto;
-  max-width: 40rem;
-  text-align: center;
+  max-width: 80rem;
 }
 
 .name {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
 .text {
   line-height: 1.8;
+  padding-bottom: 1.5rem;
 }
 
 .profile-pic {
