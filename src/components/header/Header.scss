@@ -5,6 +5,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .logo {
@@ -14,8 +15,20 @@ header {
 
 .header-nav {
   display: flex;
+  justify-content: center;
   gap: 6rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.header-nav::before {
+  content: "";
+  width: 80%;
+  height: 1px;
+  background: $clr-neutral-grey-900;
+  position: absolute;
+  top: -1rem;
 }
 
 .nav-link,
