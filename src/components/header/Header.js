@@ -9,7 +9,7 @@ export const Header = () => {
       <nav className="header-nav">
         <Link to="/" className="nav-link">Rolam</Link>
         <Link to="/katalogus" className="nav-link">Katalogus</Link>
-        <Link to="/rendeles" className="nav-link">Rendeles</Link>
+        <Link to="/rendeles" className="nav-link">Rendelés</Link>
       </nav>
     </header>
   );
