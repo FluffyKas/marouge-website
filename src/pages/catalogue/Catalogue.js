@@ -1,14 +1,8 @@
 import logo from "../../assets/images/logo.jpg";
 import "./Catalogue.scss";
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Catalogue = () => {
-  const [opened, setOpened] = useState(false)
-
-  const openModal = () => {
-    setOpened(!opened);
-  }
 
   return (
     <div className="catalogue-container">
